@@ -1,0 +1,12 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: $font__headings;
+}
+h1 {
+	@include font-size(3.75);
+	line-height: 4.5rem;
+	text-transform: uppercase;
+}
+h3 {
+	@include font-size(2);
+}

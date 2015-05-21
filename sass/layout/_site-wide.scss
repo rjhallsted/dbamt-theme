@@ -1,0 +1,44 @@
+.site {
+	margin: 0 auto;
+	max-width: 700px;
+	width: 90%;
+}
+.site-main {
+	margin-bottom: 3rem;
+}
+
+/*--------------------------------------------------------------
+10.1 Header
+--------------------------------------------------------------*/
+.site-header {
+	margin: 1.5rem 0 1.5rem;
+	width: 100%;
+}
+.site-title {
+	font-weight: normal;
+	float: left;
+	line-height: 2.375rem;
+	max-width: 220px;
+	width: 100%;
+	a {
+		text-decoration: none;
+		color: $color__text-main;
+	}
+	a:visited,
+	a:hover {
+		color: $color__text-main;
+	}
+}
+/*.main-navigation is included in navigation/menus*/
+
+/*--------------------------------------------------------------
+10.2 Footer
+--------------------------------------------------------------*/
+.site-footer {
+	font-family: $font__headings;
+	margin-bottom: 1.5rem;
+	p {
+		text-indent: 0;
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,174 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5rem;
+}
+
+.entry-meta {
+	font-family: $font__headings;
+	margin-bottom: 1.5rem;
+}
+
+.entry-title {
+	color: $color__link;
+	margin-bottom: 1.5rem;
+	margin-left: -4px;
+	a {
+		text-decoration: none;
+	}
+}
+
+.wp-post-image {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.5rem;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0 0 3rem;
+}
+
+.home .entry-content {
+	border-bottom: $border-thin;
+	max-width: 100px;
+	overflow: visible;
+	padding-bottom: 3rem;
+	width: 100%;
+	p {
+		max-width: 700px;
+		width: 1000%;
+	}
+}
+
+.entry-content {
+	width: 80%;
+	p:first-of-type {
+		font-size: 1.25rem;
+		line-height: 1.5rem;
+	}
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5rem;
+}
+
+p {
+	margin-bottom: 1.5rem;
+	iframe {
+		text-indent: -18px;
+	}
+}
+
+blockquote {
+	border-left: 5px solid $color__text-main;
+	padding-left: 16px;
+	margin-top: 1.5rem;
+	max-width: 634px;
+	width: 90%;
+	p {
+		font-size: 1.25rem;
+		font-style: italic;
+		margin-bottom: 1.5rem;
+		text-indent: 0;
+	}
+	& + p {
+		text-indent: 0;
+	}
+}
+
+.entry-content iframe {
+	margin: 1.5rem auto;
+	max-width: 634px;
+	width: 90%;
+}
+
+.entry-footer {
+	border-bottom: $border-thin;
+	border-top: $border-thin;
+	font-family: $font__headings;
+	margin-bottom: 3rem;
+	max-width: 100px;
+	overflow: visible;
+	padding: 1.5rem 0;
+	width: 100%;
+	.cat-links,
+	.photo-credit {
+		display: block;
+		max-width: 300px;
+		width: 1000%;
+	}
+}
+
+.home-text {
+	@include font-size(1.5);
+	margin-bottom: 3rem;
+}
+
+.posts-list-head {
+	border-bottom: $border-thin;
+	border-top: $border-thin;
+	margin-bottom: 3rem;
+	max-width: 100px;
+	overflow: visible;
+	padding: 1.5rem 0;
+	text-transform: uppercase;
+	width: 20%;
+	p {
+		@include font-size(1.5);
+		font-family: $font__headings;
+		width: 200%;
+	}
+}
+
+.read-more {
+	clear: both;
+	display: block;
+	margin-top: 1.5rem;
+}
+
+.paging-navigation {
+	border-bottom: $border-thin;
+	margin-bottom: 3rem;
+	max-width: 100px;
+	padding-bottom: 4.5rem;
+	width: 100%;
+	.nav-links {
+		max-width: 700px;
+		overflow: visible;
+		width: 1000%;
+	}
+}
+
+
+.archive-wrapper {
+	border-bottom: $border-thin;
+	max-width: 100px;
+	overflow: visible;
+	width: 100%;
+	h4 {
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	li {
+		list-style-type: none;
+		&:nth-of-type(3n) {
+			margin-bottom: 1.5rem;
+		}
+	}
+	ul {
+		margin-left: 1rem;
+		&:last-of-type {
+			margin-bottom: 3rem;
+		}
+	}
+}
+
+.archive-body {
+	max-width: 700px;
+	width: 1000%;
+}
