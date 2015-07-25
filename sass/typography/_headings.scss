@@ -6,6 +6,10 @@ h1 {
 	@include font-size(3.75);
 	line-height: 4.5rem;
 	text-transform: uppercase;
+	@media (max-width: $heading_breakpoint) {
+		@include font-size(2.75);
+		line-height: 3rem;
+	}
 }
 h3 {
 	@include font-size(2);
