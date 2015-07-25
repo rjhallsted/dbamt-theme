@@ -42,10 +42,23 @@
 		max-width: 700px;
 		width: 1000%;
 	}
+	@media (max-width: 700px) {
+		max-width: none;
+		border-bottom: none;
+		&:last-of-type {
+			padding-bottom: 0;
+		}
+		p {
+			width: 100%;
+		}
+	}
 }
 
 .entry-content {
 	width: 80%;
+	@media (max-width: $heading_breakpoint) {
+		width: 100%;
+	}
 	p:first-of-type {
 		font-size: 1.25rem;
 		line-height: 1.5rem;
@@ -137,6 +150,10 @@ blockquote {
 	max-width: 100px;
 	padding-bottom: 4.5rem;
 	width: 100%;
+	@media (max-width: 700px) {
+		padding-top: 3rem;
+		border-top: $border-thin;
+	}
 	.nav-links {
 		max-width: 700px;
 		overflow: visible;

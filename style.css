@@ -691,9 +691,20 @@ a {
   .home .entry-content p {
     max-width: 700px;
     width: 1000%; }
+  @media (max-width: 700px) {
+    .home .entry-content {
+      max-width: none;
+      border-bottom: none; }
+      .home .entry-content:last-of-type {
+        padding-bottom: 0; }
+      .home .entry-content p {
+        width: 100%; } }
 
 .entry-content {
   width: 80%; }
+  @media (max-width: 650px) {
+    .entry-content {
+      width: 100%; } }
   .entry-content p:first-of-type {
     font-size: 1.25rem;
     line-height: 1.5rem; }
@@ -772,6 +783,10 @@ blockquote {
   max-width: 100px;
   padding-bottom: 4.5rem;
   width: 100%; }
+  @media (max-width: 700px) {
+    .paging-navigation {
+      padding-top: 3rem;
+      border-top: 2px solid #0f0f0f; } }
   .paging-navigation .nav-links {
     max-width: 700px;
     overflow: visible;
