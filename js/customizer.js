@@ -16,6 +16,12 @@
 			$( '.site-description' ).text( to );
 		} );
 	} );
+	// Homepage message.
+	wp.customize( 'homepage_message', function( value) {
+		value.bind( function( to ) {
+			$( '.home-text p').text( to );
+		} );
+	} );
 	// Header text color.
 	wp.customize( 'header_textcolor', function( value ) {
 		value.bind( function( to ) {

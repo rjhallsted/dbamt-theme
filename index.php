@@ -18,7 +18,7 @@ get_header(); ?>
 
 		<?php if( is_home() ) : ?>
 			<div class="home-text">
-				<p>Welcome the Dream Big &amp; Make Things, where I  write about making things and how that affects our what we care about, and more than that, how we live.</p>
+				<p><?php echo get_theme_mod('homepage_message', ''); ?></p>
 			</div>
 		<?php endif; ?>
 
