@@ -134,6 +134,7 @@ blockquote {
 	p {
 		@include font-size(1.5);
 		font-family: $font__headings;
+		margin-bottom: 0;
 		width: 200%;
 	}
 }
