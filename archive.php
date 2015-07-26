@@ -69,8 +69,6 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		<?php dbamt_mailchimp_signup(); ?>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

@@ -43,8 +43,6 @@ get_header(); ?>
 
 			<?php dbamt_paging_nav(); ?>
 
-			<?php dbamt_mailchimp_signup(); ?>
-
 		<?php else : ?>
 
 			<?php get_template_part( 'content', 'none' ); ?>
